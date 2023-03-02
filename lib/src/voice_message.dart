@@ -145,7 +145,8 @@ class _VoiceMessageState extends State<VoiceMessage>
                 _remaingTime,
                 style: TextStyle(
                   fontSize: 10,
-                  color: widget.me ? widget.meFgColor : widget.contactFgColor,
+                  color: Colors
+                      .black /* widget.me ? widget.meFgColor : widget.contactFgColor */,
                 ),
               )
             ],
