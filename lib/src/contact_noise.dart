@@ -18,6 +18,7 @@ class ContactNoise extends StatelessWidget {
   _singleNoise(BuildContext context) {
     final double height = 5.74.w() * math.Random().nextDouble() + .26.w();
     return Container(
+      color: Colors.transparent,
       margin: EdgeInsets.symmetric(horizontal: .2.w()),
       width: .56.w(),
       height: height,
