@@ -9,9 +9,11 @@ class Noises extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Row(
-      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-      children: [for (int i = 0; i < 27; i++) _singleNoise(context)],
+    return Expanded(
+      child: Row(
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        children: [for (int i = 0; i < 27; i++) _singleNoise(context)],
+      ),
     );
   }
 
